@@ -9,7 +9,7 @@ spec:
   - port: 81
     name: web
     targetPort: 80
-  clusterIP: ClusterIP
+  type: ClusterIP
   selector:
     app: nginx
 ---
